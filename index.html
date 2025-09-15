@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oltremare Gioielli — Italian Fine Jewelry</title>
+  <meta name="description" content="Timeless fine jewelry designed and handmade in Italy. Exquisite 14k & 18k gold pieces crafted to order with natural gemstones and ethical diamonds." />
+  <meta property="og:title" content="Oltremare Gioielli — Italian Fine Jewelry" />
+  <meta property="og:description" content="Timeless fine jewelry designed and handmade in Italy. Exquisite 14k & 18k gold pieces crafted to order with natural gemstones and ethical diamonds." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://oltremaregioielli.github.io/" />
+  <meta property="og:image" content="https://www.oltremaregioielli.it/cdn/shop/files/Logo_Nero_OLTREMARE_GIOIELLI.png" />
+  <link rel="icon" href="https://www.oltremaregioielli.it/cdn/shop/files/Logo_Nero_OLTREMARE_GIOIELLI.png" />
+  <style>
+    :root {
+      --bg: #ede8e4;      /* requested background */
+      --text: #111111;
+      --muted: #5c5c5c;
+      --accent: #b78e5c;  /* elegant gold accent */
+      --card: #ffffff;
+      --shadow: 0 10px 30px rgba(0,0,0,.08);
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.7;
+    }
+    a { color: var(--text); text-decoration: none; }
+    a:hover { color: var(--accent); }
+    .container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+    header {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 0;
+    }
+    .brand { display: flex; align-items: center; gap: 14px; }
+    .brand img { width: 180px; height: auto; filter: none; }
+    .nav { display: flex; gap: 14px; flex-wrap: wrap; }
+    .nav a { padding: 10px 14px; border-radius: 999px; background: rgba(0,0,0,0.04); backdrop-filter: blur(2px); }
+    .nav a:hover { background: var(--accent); color: white; }
+
+    .hero { margin: 24px 0 8px; padding: 56px 22px; border-radius: var(--radius); background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(255,255,255,0.9)); box-shadow: var(--shadow); position: relative; overflow: hidden; }
+    .hero h1 { font-size: clamp(28px, 5vw, 48px); margin: 0 0 14px; letter-spacing: .5px; }
+    .hero p { color: var(--muted); font-size: clamp(16px, 2.2vw, 18px); max-width: 760px; margin: 0 0 22px; }
+    .cta { display: inline-block; padding: 14px 22px; border-radius: 999px; background: var(--text); color: white; font-weight: 600; box-shadow: var(--shadow); }
+    .cta:hover { background: var(--accent); }
+
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; margin-top: 32px; }
+    .card { grid-column: span 6; background: var(--card); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); }
+    .card h3 { margin-top: 0; }
+    .card p { color: var(--muted); }
+
+    .feature { display: flex; align-items: center; gap: 14px; margin: 8px 0; }
+    .feature .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); }
+
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 16px; }
+    .tile { background: var(--card); border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 10px; }
+    .tile img { width: 100%; height: 220px; object-fit: cover; border-radius: 12px; background: #ddd; }
+    .tile a.more { margin-top: auto; font-weight: 600; }
+
+    footer { margin: 48px 0 16px; padding: 22px; border-radius: var(--radius); background: rgba(255,255,255,0.6); box-shadow: var(--shadow); }
+    .social { display: flex; gap: 12px; flex-wrap: wrap; }
+    .pill { padding: 10px 14px; border-radius: 999px; background: rgba(0,0,0,0.05); }
+
+    .lang { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .lang a { padding: 8px 12px; border-radius: 999px; background: rgba(0,0,0,0.04); }
+
+    @media (max-width: 768px) {
+      .card { grid-column: span 12; }
+      header { flex-direction: column; align-items: flex-start; }
+      .brand img { width: 200px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <img src="https://www.oltremaregioielli.it/cdn/shop/files/Logo_Nero_OLTREMARE_GIOIELLI.png" alt="Oltremare Gioielli logo" />
+      </div>
+      <nav class="nav" aria-label="Primary">
+        <a href="https://www.oltremaregioielli.it/collections/statement-rings">Statement Rings</a>
+        <a href="https://www.oltremaregioielli.it/collections/necklaces-pendants">Necklaces</a>
+        <a href="https://www.oltremaregioielli.it/collections/hoop-earrings">Hoop Earrings</a>
+        <a href="https://www.oltremaregioielli.it/collections/mens-jewelry">Men</a>
+        <a href="https://www.oltremaregioielli.it/collections/new-arrivals">New In</a>
+      </nav>
+    </header>
+
+    <section class="hero" role="banner">
+      <h1>Italian Fine Jewelry — Handmade to Order</h1>
+      <p>
+        Exquisite 14k & 18k gold creations crafted in Italy with natural gemstones and ethical diamonds. 
+        Each piece is designed for timeless elegance and made to order with meticulous attention to detail.
+      </p>
+      <a class="cta" href="https://www.oltremaregioielli.it" target="_blank" rel="noopener">Explore the Collection</a>
+    </section>
+
+    <section class="grid" aria-label="Highlights">
+      <div class="card">
+        <h3>What makes us unique</h3>
+        <div class="feature"><span class="dot"></span><span>Authentically <strong>Made in Italy</strong>, from design to finishing.</span></div>
+        <div class="feature"><span class="dot"></span><span><strong>14k & 18k</strong> solid gold, crafted to order.</span></div>
+        <div class="feature"><span class="dot"></span><span><strong>Natural gemstones</strong> and ethical diamonds.</span></div>
+        <div class="feature"><span class="dot"></span><span>Modern, sculptural aesthetics with an artisanal soul.</span></div>
+      </div>
+      <div class="card">
+        <h3>Featured pieces</h3>
+        <div class="gallery">
+          <div class="tile">
+            <img src="https://www.oltremaregioielli.it/cdn/shop/articles/statement-rings-oltremare.jpg?v=1730310000" alt="Italian statement ring in 18k gold" />
+            <strong>Statement Rings</strong>
+            <a class="more" href="https://www.oltremaregioielli.it/collections/statement-rings">Shop rings →</a>
+          </div>
+          <div class="tile">
+            <img src="https://www.oltremaregioielli.it/cdn/shop/articles/necklaces-oltremare.jpg?v=1730310000" alt="Handmade gold necklaces made in Italy" />
+            <strong>Necklaces & Pendants</strong>
+            <a class="more" href="https://www.oltremaregioielli.it/collections/necklaces-pendants">Shop necklaces →</a>
+          </div>
+          <div class="tile">
+            <img src="https://www.oltremaregioielli.it/cdn/shop/articles/hoops-oltremare.jpg?v=1730310000" alt="Italian gold hoop earrings" />
+            <strong>Hoop Earrings</strong>
+            <a class="more" href="https://www.oltremaregioielli.it/collections/hoop-earrings">Shop hoops →</a>
+          </div>
+          <div class="tile">
+            <img src="https://www.oltremaregioielli.it/cdn/shop/articles/mens-oltremare.jpg?v=1730310000" alt="Men's gold jewelry made in Italy" />
+            <strong>Men's Jewelry</strong>
+            <a class="more" href="https://www.oltremaregioielli.it/collections/mens-jewelry">Shop men →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="social" aria-label="Social links">
+        <a class="pill" href="https://www.instagram.com/oltremare_gioielli_italy" target="_blank" rel="noopener">Instagram</a>
+        <a class="pill" href="https://www.facebook.com/oltremaregioielli" target="_blank" rel="noopener">Facebook</a>
+        <a class="pill" href="https://oltremaregioielli.etsy.com" target="_blank" rel="noopener">Etsy</a>
+        <a class="pill" href="https://www.oltremaregioielli.it" target="_blank" rel="noopener">Website</a>
+        <a class="pill" href="mailto:info@oltremaregioielli.it">Contact</a>
+      </div>
+      <div class="lang" aria-label="Language selector">
+        <span style="color:var(--muted)">Language:</span>
+        <a href="https://www.oltremaregioielli.it/it">Italiano</a>
+        <a href="https://www.oltremaregioielli.it/fr">Français</a>
+        <a href="https://www.oltremaregioielli.it/de">Deutsch</a>
+        <a href="https://www.oltremaregioielli.it/es">Español</a>
+        <a href="https://www.oltremaregioielli.it">English</a>
+      </div>
+      <p style="margin-top:14px;color:var(--muted);font-size:14px">© <span id="y"></span> Oltremare Gioielli — Handmade in Italy</p>
+    </footer>
+  </div>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
